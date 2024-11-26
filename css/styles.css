@@ -54,15 +54,17 @@
 .hero__section{
   display: flex;
   flex-direction: column;
-
-  margin-top: 25px;
   margin-left: 50px;
 }
 
+.headline h2{
+  font-size: 30px;
+}
+
 .hero__image{
-  margin-top: -170px;
   width: 390px;
   margin-right: 50px;
+  margin-top: -300px;
 }
 .hero__image img{
   width: 100%;
