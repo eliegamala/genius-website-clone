@@ -1,0 +1,50 @@
+.hero__section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+
+}
+
+
+.hero__image img{
+  width: 900px;
+  height: 500px;
+}
+
+.information__section{
+ height: 500px;
+ padding-right: 70px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+
+}
+
+.news{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 21px;
+  display: flex;
+}
+
+.news::after{
+  content: "";
+  font-weight: bold;
+  border-bottom: 0.16rem solid rgb(0, 0, 0);
+  flex: 1 1 0%;
+  margin-left: 0.5rem;
+  position: relative;
+  top: calc(-0.605rem);
+}
+
+.headline h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.underheadline p{
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}

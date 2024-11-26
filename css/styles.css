@@ -1,0 +1,71 @@
+@import url(sections/header.css);
+@import url(sections/hero.css);
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/*Header Media Queries*/
+@media (max-width: 768px) { /* Typical tablet breakpoint */
+  .social__icons {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .bottom__header{
+    display: none;
+  }
+
+  .input__container{
+    display: none;
+  }
+
+  .menu__container{
+    display: flex;
+    gap: 10px;
+  }
+
+  .menu__container img{
+    width: 19px;
+    height: 20px;
+    object-fit: contain;
+  }
+
+  .auth__container .signIn_link{
+    display: none;
+  }
+
+  .bottom__header::after{
+    content: none;
+  } 
+}
+
+
+/*hero*/
+@media (max-width: 550px) {
+
+.hero__section{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.hero__image{
+  margin-top: -170px;
+  width: 390px;
+  margin-right: 50px;
+}
+.hero__image img{
+  width: 100%;
+  object-fit: contain;
+}
+}
